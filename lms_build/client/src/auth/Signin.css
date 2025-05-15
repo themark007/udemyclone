@@ -1,0 +1,79 @@
+/* Full page background */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+/* Centered form container */
+form {
+  background-color: rgba(255, 255, 255, 0.95);
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #222;
+  margin-top: 40px;
+}
+
+p {
+  text-align: center;
+  color: green;
+  font-weight: bold;
+}
+
+/* Form labels and inputs */
+label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #a435f0;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #922bd0;
+}
+
+/* Secondary button */
+button[type="button"] {
+  background-color: #e0e0e0;
+  color: #333;
+  margin-top: 10px;
+}
+
+button[type="button"]:hover {
+  background-color: #cfcfcf;
+}
